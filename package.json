@@ -1,12 +1,9 @@
 {
   "name": "statusbot",
   "version": "1.0.0",
-  "description": "",
+  "description": "Programmatically update your Slack status",
   "main": "handler.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Ryan Canfield <ryan.c@helpfulhuman.com> (http://helpfulhuman.com)",
+  "author": "Ryan Canfield <ryan@helpfulhuman.com> (http://helpfulhuman.com)",
   "license": "MIT",
   "dependencies": {
     "request": "^2.83.0",
