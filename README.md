@@ -3,7 +3,7 @@ Programmatically update your Slack status
 ___
 ## Setup
 ### Slack
-1. Create a legacy slack token [here].(https://api.slack.com/custom-integrations/legacy-tokens)
+1. Create a legacy slack token [here](https://api.slack.com/custom-integrations/legacy-tokens).
 
     (You'll need this info later)
 1. Create a new app in slack [here](https://api.slack.com/apps).
