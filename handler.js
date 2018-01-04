@@ -19,6 +19,7 @@ module.exports.updateStatus = (event, context, callback) => {
   var slackEndpoint = "https://slack.com/api/users.profile.set";
   var urlParams = "?token=" + token + "&profile=" + profile;
   var fullUrl = slackEndpoint + urlParams;
+  var requestor = body.profile.first_name;
 
   request.post(
     fullUrl,
@@ -26,6 +27,8 @@ module.exports.updateStatus = (event, context, callback) => {
     function(error, response, body) {
       if (!error && response.statusCode == 200) {
         console.log(body);
+      } else {
+        console.log(error, requestor);
       }
     }
   );
