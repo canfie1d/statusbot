@@ -24,7 +24,7 @@ ___
 1. Then run:
 
     `serverless config credentials --provider aws --key <<KEY FROM CSV>> --secret <<SECRET FROM CSV>>`
-1. Afterward run: `npm init; npm i;`
+1. Afterward cd into the statusbot directory then run: `npm init; npm i;`
 1. Finally run: `serverless deploy` to deploy the lambda to AWS
 
 > You can now use the provided endpoint to make POST requests (Body JSON required- see below).
