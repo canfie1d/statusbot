@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Programmatically update your Slack status",
   "main": "handler.js",
-  "author": "Ryan Canfield <ryan@helpfulhuman.com> (http://helpfulhuman.com)",
+  "author": "Ryan Canfield <ryancanfield@me.com> (http://ryancanfield.me)",
   "license": "MIT",
   "dependencies": {
     "request": "^2.83.0",
