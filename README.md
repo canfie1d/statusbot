@@ -39,4 +39,4 @@ ___
   1. Switch the mime type to POST
   1. Input the following json in the body:
 
-      `{ "token": <<LEGACY SLACK TOKEN>>", "profile": {"status_text":"In the office","status_emoji":":smith_tower:"} }`
+      `{ "token": <<LEGACY SLACK TOKEN>>", "profile": {"status_text":"In the office","status_emoji":":office:"} }`
